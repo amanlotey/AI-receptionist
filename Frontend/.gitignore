@@ -1,0 +1,124 @@
+# ----------------------------
+# 🌐 GENERAL (both front + back)
+# ----------------------------
+node_modules/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+
+# Ignore local debug audio files
+*.wav
+*.pcm
+*.mp3
+debug_audio_*.wav
+chunk_*.wav
+raw_chunk_*.pcm
+
+# ----------------------------
+# 🧠 FRONTEND (React / Next.js)
+# ----------------------------
+.next/
+out/
+build/
+dist/
+.cache/
+coverage/
+.vscode/
+.idea/
+*.swp
+
+# Next.js static output
+.next/static/
+.next/cache/
+.next/server/
+
+# Expo / React Native Web builds
+.expo/
+.expo-shared/
+web-build/
+android/
+ios/
+
+# Generated assets
+*.map
+*.chunk.js
+*.chunk.css
+*.hot-update.json
+*.hot-update.js
+
+# ----------------------------
+# ⚙️ BACKEND (Node / Express)
+# ----------------------------
+# Compiled source
+dist/
+build/
+lib/
+tmp/
+temp/
+
+# Logs and process files
+logs/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Debug files
+debug.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Database and uploads
+*.sqlite
+*.db
+uploads/
+storage/
+backups/
+
+# ----------------------------
+# 🔧 TypeScript
+# ----------------------------
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ----------------------------
+# 🧪 Testing
+# ----------------------------
+coverage/
+jest-coverage/
+__tests__/coverage/
+test-output/
+
+# ----------------------------
+# 🧑‍💻 IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+
+# ----------------------------
+# 🧱 OS / Misc
+# ----------------------------
+*.bak
+*.tmp
+*.temp
+*.log
+ehthumbs.db
+Icon?
+desktop.ini
+*.orig
